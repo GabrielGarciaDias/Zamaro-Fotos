@@ -7,4 +7,5 @@ public class ClienteModel implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	//TODO Implementar dados  Cliente
+
 }

@@ -8,6 +8,7 @@ public class ZamaroApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ZamaroApplication.class, args);
+
 	}
 
 }
