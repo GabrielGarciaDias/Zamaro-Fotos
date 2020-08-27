@@ -8,7 +8,7 @@ public class VendaModel implements Serializable {
 	
 	//TODO Implementar atributos venda
 	
-	public class Cliente{
+	public class Venda{
 		private float venda;
 		private double idCliente;
 		private String formaDePagamento;
@@ -17,7 +17,7 @@ public class VendaModel implements Serializable {
 		private String agendamento;
 		private String dataDaVenda;
 		
-		public Cliente(float venda , double idCliente, String formaDePagamento, int parcelas,
+		public Venda(float venda , double idCliente, String formaDePagamento, int parcelas,
 			int idStatus, String agendamento, String dataDaVenda){
 			
 		}
