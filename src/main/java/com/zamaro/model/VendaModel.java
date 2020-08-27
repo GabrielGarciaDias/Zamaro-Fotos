@@ -20,6 +20,14 @@ public class VendaModel implements Serializable {
 		public Venda(float venda , double idCliente, String formaDePagamento, int parcelas,
 			int idStatus, String agendamento, String dataDaVenda){
 			
+			this.venda = venda;
+			this.idCliente = idCliente;
+			this.formaDePagamento = formaDePagamento;
+			this.parcelas = parcelas;
+			this.idStatus = idStatus;
+			this.agendamento = agendamento;
+			this.dataDaVenda = dataDaVenda;
+			
 		}
 
 		public float getVenda() {
